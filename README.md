@@ -7,6 +7,7 @@
 To reproduce the results of RQE and HRQE on WN18RR, FB15k237, WN18 and FB15K,
 please run the following commands.
 
+```shell script
 #################################### WN18RR ####################################
 # RQE
 CUDA_VISIBLE_DEVICES=2 nohup python train_models.py --model RQE --dataset WN18RR --train_times 40000 --nbatches 10 --alpha 0.02 --dimension 300 --lmbda 0.25 --lmbda_two 0.25 --ent_neg_rate 2 --valid_step 2000 >./logs/RQE-WN18RR-0.out 2>&1 &
@@ -37,7 +38,7 @@ CUDA_VISIBLE_DEVICES=3 nohup python train_models.py --model RQE --dataset FB15K 
 
 # HRQE
 CUDA_VISIBLE_DEVICES=2 nohup python train_models.py --model HRQE --dataset FB15K --train_times 4000 --nbatches 100 --alpha 0.02 --dimension 400 --lmbda 0.05 --lmbda_two 0.0 --ent_neg_rate 10 --valid_step 400 >./logs/HRQE-FB15K-0.out 2>&1 &
-
+```
 
 
 
