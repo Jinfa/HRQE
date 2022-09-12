@@ -29,7 +29,7 @@ CUDA_VISIBLE_DEVICES=2 nohup python train_models.py  --model HRQE --dataset FB15
 CUDA_VISIBLE_DEVICES=0 nohup python train_models.py --model RQE --dataset WN18 --train_times 4000 --nbatches 10 --alpha 0.04 --dimension 300 --lmbda 0.03 --lmbda_two 0.0 --ent_neg_rate 10 --valid_step 400 >./logs/RQE-WN18-0.out 2>&1 &
 
 # HRQE
-CUDA_VISIBLE_DEVICES=2 nohup python train_models.py --model HRQE --dataset WN18 --train_times 8000 --nbatches 10 --alpha 0.05 --dimension 300 --lmbda 0.05 --lmbda_two 0.01 --ent_neg_rate 10 --valid_step 1000 >./logs/HRQE-WN18-0.out 2>&1 & #
+CUDA_VISIBLE_DEVICES=2 nohup python train_models.py --model HRQE --dataset WN18 --train_times 8000 --nbatches 10 --alpha 0.05 --dimension 300 --lmbda 0.05 --lmbda_two 0.01 --ent_neg_rate 10 --valid_step 1000 >./logs/HRQE-WN18-0.out 2>&1 &
 
 
 #################################### FB15K ####################################
