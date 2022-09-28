@@ -44,6 +44,6 @@ python train_models.py --model HRQE --dataset FB15K --train_times 4000 --nbatche
 
 ## Acknowledgement
 
-This code is based on the OpenKE project.
+This code is based on the [OpenKE](https://github.com/thunlp/OpenKE) project.
 
 We refer to the code of [QuatE](https://github.com/cheungdaven/QuatE). Thanks for their contributions.
