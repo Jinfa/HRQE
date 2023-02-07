@@ -47,3 +47,12 @@ python train_models.py --model HRQE --dataset FB15K --train_times 4000 --nbatche
 This code is based on the [OpenKE](https://github.com/thunlp/OpenKE) project.
 
 We refer to the code of [QuatE](https://github.com/cheungdaven/QuatE). Thanks for their contributions.
+
+## Citation
+@inproceedings{yang2022learning,
+  title={Learning Hierarchy-Aware Quaternion Knowledge Graph Embeddings with Representing Relations as 3D Rotations},
+  author={Yang, Jinfa and Ying, Xianghua and Shi, Yongjie and Tong, Xin and Wang, Ruibin and Chen, Taiyan and Xing, Bowei},
+  booktitle={Proceedings of the 29th International Conference on Computational Linguistics},
+  pages={2011--2023},
+  year={2022}
+}
