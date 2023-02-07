@@ -49,6 +49,8 @@ This code is based on the [OpenKE](https://github.com/thunlp/OpenKE) project.
 We refer to the code of [QuatE](https://github.com/cheungdaven/QuatE). Thanks for their contributions.
 
 ## Citation
+This is the code for paper "Learning Hierarchy-Aware Quaternion Knowledge Graph Embeddings with Representing Relations as 3D Rotations".
+If it helps your work, please cite the following paper:
 ```
 @inproceedings{yang2022learning,
   title={Learning Hierarchy-Aware Quaternion Knowledge Graph Embeddings with Representing Relations as 3D Rotations},
